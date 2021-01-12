@@ -1,0 +1,187 @@
+#title {
+    background-color: #ff4c68;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+h1 {
+    padding-bottom: 50px;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.2rem;
+    line-height: 1.2;
+}
+
+.dog-image {
+    width: 60%;
+    /*padding-top: 50px;*/
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+@media (max-width:1048px) {
+    .dog-image {
+        position: static;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding;
+    0px 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 200;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+
+/*-------------features------------*/
+
+#features {
+    /*align-items: center;
+    align-content: center;*/
+    padding: 7% 15%;
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.icon {
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+
+/* testimonial section*/
+
+#testimonials {
+    text-align: center;
+    background-color: #ff4c68;
+    color: white;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: "Montserrat";
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.tindog {
+    text-align: center;
+}
+
+
+/* pricing section */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/* footer-design */
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    color: white;
+    /* padding-top: 3%; */
+    padding-bottom: 8%;
+}
+
+.cta-h3 {
+    font-size: 2rem;
+    padding: 4% 30%;
+    font-family: "Montserrat";
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.new {
+    margin: 0 3% 0% 0%;
+}
+
+#footer {
+    padding: 5% 10% 1%;
+    text-align: center;
+}
+
+.foot {
+    padding-right: 1%;
+    padding-bottom: 2%;
+}
+
+@media (max-width:1048px) {
+    .foot {
+        padding-right: 2%;
+        padding-bottom: 2%;
+    }
+}
